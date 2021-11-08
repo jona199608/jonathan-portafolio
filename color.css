@@ -1,0 +1,226 @@
+body{
+    background-color:rgb(155, 162, 168);
+    width: 1650px;
+    font-family: "Oswald", sans-serif;
+    background-color: #0e6198;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%23100f11' fill-opacity='0.61'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(17, 109, 163);
+}
+
+li {
+    border-bottom: solid 1px #ddd;
+    padding: 15px;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #eee;
+    text-align: center;
+    padding: 1px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: rgba(62, 59, 228, 0.3);
+}
+
+.icono {
+    height: 52px;
+    width: 50px;
+    float: right;
+}
+
+.contc{
+    text-decoration: none;
+    color: azure;
+}
+.contacto-btn{
+    background-color: rgb(10, 100, 173);
+    color: rgb(252, 239, 252);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;    
+    cursor: pointer;
+    
+}
+
+
+.contacto {
+    position: fixed;
+    top: 5px;
+    left: 100px;
+    width: 5px;
+   
+
+}
+
+.contacto-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(166, 201, 245); 
+    min-width: 12px;
+    box-shadow: 0px 4px 4px rgba(21, 22, 21, 0.788) ;
+    border-radius: 5px;
+
+}
+
+
+.contacto-content a{
+    color: rgb(13, 14, 13);
+    padding: 0px 12px;
+    margin: 5px 5px;
+    text-decoration: none;
+    display: block;
+    }
+    
+    .contacto-content a:hover{
+        background-color: rgb(30, 135, 201);
+        opacity: 0.8;
+        border-radius: 5px;
+
+    }
+    
+    .contacto:hover .contacto-btn {
+        background-color: rgb(14, 17, 184);
+    }
+    
+    .contacto:hover .contacto-content{
+        display: block;
+    
+    }
+
+.icono:hover{
+    opacity: 0.9;
+}
+
+
+.contc{
+    text-decoration: none;
+    color: azure;
+}
+.mas-btn{
+    background-color: rgb(10, 100, 173);
+    color: rgb(252, 239, 252);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;    
+    cursor: pointer; 
+}
+
+.mas {
+    position: fixed;
+    top: 5px;
+    left: 220px;
+    width: 5px;
+}
+
+.mas-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(166, 201, 245); 
+    min-width: 12px;
+    box-shadow: 0px 4px 4px rgba(21, 22, 21, 0.788);
+    border-radius: 5px;
+}
+
+.mas-content a{
+    color: rgb(13, 14, 13);
+    padding: 0px 12px;
+    margin: 5px 5px;
+    text-decoration: none;
+    display: block;
+    }
+    
+    .mas-content a:hover{
+        background-color: rgb(30, 135, 201);
+        opacity: 0.8;
+        border-radius: 5px;
+
+    }
+    
+    .mas:hover .mas-btn {
+        background-color: rgb(14, 17, 184);
+    }
+    
+    .mas:hover .mas-content{
+        display: block;
+    
+    }
+
+
+.modelo{
+    margin: 1em;
+    padding: 1em;
+    float: left; 
+
+}
+
+.fondo{
+    background-color: rgb(10, 100, 173);
+    width: 260px;
+    text-align: center;
+    color: rgb(236, 235, 223);
+    border: solid 1px #ddd ;
+    padding: 20px ;
+    margin: 50px 180px;
+}
+
+/* .titulo{
+    background-color: rgb(6, 91, 160);
+    margin: 60px 500px;
+    text-align: center;
+    color: rgb(236, 235, 223);
+    border: solid 1px #ddd ;
+    padding: 0px ;
+    
+} */
+
+h1{
+    padding: 20px;
+}
+h2{
+    padding: 1em;
+}
+
+/* Follow */ 
+
+.l1 img{
+    width: 30px;
+    height: 30px;    
+    margin: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .modelo {
+      grid-template-columns: 1fr;
+      height: 50px;
+    }
+    .menu {
+      width: 42.4%;
+      flex-direction: column;
+    }
+
+    .modelo{
+        margin: 0px;
+        padding: 0px;
+        width: 42%;
+        color: cornsilk;
+        float: left; 
+        text-align: center;
+    }
+    
+  }
+  
